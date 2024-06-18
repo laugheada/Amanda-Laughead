@@ -1,0 +1,77 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://laugheada.github.io/Amanda Laughead/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Letter to Garland Fulton from Charles E. Rosendahl",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A handwritten letter dated January 6, 1926. The letter was written by Vice Admiral (then Lt. Cmdr.) Charles E. Rosendahl to Captain Garland Fulton.",
+    "@language" : "en"
+  } ],
+  "license" : "https://www.si.edu/Termsofuse",
+  "attribution" : "Garland Fulton Collection, Accession XXXX-0101, National Air and Space Museum, Smithsonian Insitituion",
+  "sequences" : [ {
+    "@id" : "http://ebdfc348-179c-423a-af94-ef8b1ab47c18",
+    "@type" : "sc:Sequence",
+    "viewingDirection" : "left-to-right",
+    "viewingHint" : "paged",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://3cd14151-2c0b-461c-8579-6d9678c0ba92",
+      "@type" : "sc:Canvas",
+      "label" : "Page 1, Letter to Garland Fulton from Charles E. Rosendahl",
+      "height" : 3000,
+      "width" : 2314,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3cec3725-9b26-4c82-bcce-a626d0fe1ebc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/nasm.-xxxx.-0101-bx-008-fd-004-012/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/nasm.-xxxx.-0101-bx-008-fd-004-012",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3000,
+          "width" : 2314
+        },
+        "on" : "http://3cd14151-2c0b-461c-8579-6d9678c0ba92"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fcce1444-de2d-42d7-bd68-dad957a425b5",
+      "@type" : "sc:Canvas",
+      "label" : "Page 2, Letter to Garland Fulton from Charles E. Rosendahl",
+      "height" : 3311,
+      "width" : 2594,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a74b6dd8-a0d6-4d55-9d75-22dea69ab9c9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/nasm.-xxxx.-0101-bx-008-fd-004-013/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/nasm.-xxxx.-0101-bx-008-fd-004-013",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3311,
+          "width" : 2594
+        },
+        "on" : "http://fcce1444-de2d-42d7-bd68-dad957a425b5"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
