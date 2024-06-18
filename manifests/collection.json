@@ -1,0 +1,13 @@
+{
+  "id" : "https://laugheada.github.io/Amanda Laughead/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in laugheada/Amanda-Laughead project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://laugheada.github.io/Amanda Laughead/manifests/manifest2.json",
+    "label" : "Letter to Garland Fulton from Charles E. Rosendahl"
+  } ]
+}
